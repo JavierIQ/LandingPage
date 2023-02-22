@@ -10,5 +10,5 @@ La tarea comprende el desarrollo de un landing page responsivo con HTML, SCSS, e
     2. Proyecto Github debe contar con por lo menos 2 commits en pre-release y merge de proyecto terminado en main.
 2. URL pública a proyecto en servidor temporal (Puede ser Netlify).
 
-Link GitHub: https://github.com/JavierIQ/LandingPage
-Link Netlify Site: https://majestic-dieffenbachia-754caa.netlify.app/
+- Link GitHub: https://github.com/JavierIQ/LandingPage
+- Link Netlify Site: https://majestic-dieffenbachia-754caa.netlify.app/

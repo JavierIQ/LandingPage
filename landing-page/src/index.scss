@@ -1,0 +1,173 @@
+//Imports
+@import url(https://fonts.google.com/share?selection.family=Roboto);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+// Font Variables
+$roboto: 'Roboto', serif;   
+// Variable Colors 
+$main-color:#FFF959;
+$secondary-color:#000000;
+$white-color: #FFFFFF;
+
+.navbar{
+    color: $secondary-color;
+    font-weight: bolder;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid $secondary-color;
+
+    .logo-name{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    .login-button{
+        color: $white-color;
+        background-color: $secondary-color;
+        font-size: 14px;
+        padding: 10px 32px;
+        display: inline-block;
+        border-radius: 4px;
+        text-transform: uppercase;
+    }
+}
+
+.jumbotron{
+    border-radius: 10px;
+    background-color: $main-color;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 120px 20px;
+
+    .hero-title{
+        font-size: 64px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .hero-subtitle{
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .hero-button{
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 4px;
+        background-color: transparent;
+        border: solid $secondary-color;
+        text-transform: uppercase;
+      }
+}
+
+.cards{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    .card{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: none;
+        .card-image{
+            height: 450px;
+            background-color: $main-color;
+            border-radius: 15px;
+        }
+        .card-title{
+            font-size: 32px;
+        }
+        .card-subtitle{
+            margin-top: 25px;
+            font-size: 15px;
+        }
+        .card-button{
+            padding: 10px 20px;
+            font-size: 16px;
+            text-transform: uppercase;
+            background-color: transparent;
+        }
+    }
+
+    .card:hover{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: none;
+        .card-image{
+            border: 1px solid $secondary-color;
+            height: 450px;
+            background-color: $main-color;
+            border-radius: 15px;
+        }
+        .card-title{
+            font-size: 32px;
+        }
+        .card-subtitle{
+            font-size: 15px;
+        }
+        .card-button{
+            padding: 10px 20px;
+            font-size: 16px;
+            text-transform: uppercase;
+            color: $white-color;
+            background-color: $secondary-color;
+        }
+    }
+}
+
+footer{
+    background-color: $secondary-color;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: $white-color;
+    padding: 20px 20px;
+
+    .image-footer{
+        height: 24px;
+        width: 24px;
+    }
+
+    .rights-text{
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+p,h1{
+    font-family: $roboto;
+}
+
+@media only screen and (max-width: 600px) {
+
+    footer{
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .rights-text{
+        margin-top: 16px;
+    }
+
+    .image-footer{
+        align-self: center;
+        justify-self: center;
+    }
+
+    .image-navbar{
+        display: none;
+    }
+  }

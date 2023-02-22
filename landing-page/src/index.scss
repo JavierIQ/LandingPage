@@ -9,9 +9,6 @@ $main-color:#FFF959;
 $secondary-color:#000000;
 $white-color: #FFFFFF;
 
-$position-values: 50;
-
-
 .navbar{
     color: $secondary-color;
     font-weight: bolder;
@@ -90,6 +87,7 @@ $position-values: 50;
             font-size: 32px;
         }
         .card-subtitle{
+            margin-top: 25px;
             font-size: 15px;
         }
         .card-button{
@@ -135,6 +133,11 @@ footer{
     color: $white-color;
     padding: 20px 20px;
 
+    .image-footer{
+        height: 24px;
+        width: 24px;
+    }
+
     .rights-text{
         font-size: 15px;
         display: flex;
@@ -152,8 +155,7 @@ p,h1{
     footer{
         width: 100%;
         display: inline-block;
-        align-items: center; 
-        justify-content: center;
+        text-align: center;
     }
 
     .rights-text{
@@ -161,7 +163,6 @@ p,h1{
     }
 
     .image-footer{
-        position: $position-values;
         align-self: center;
         justify-self: center;
     }

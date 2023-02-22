@@ -75,6 +75,7 @@
   font-size: 32px;
 }
 .cards .card .card-subtitle {
+  margin-top: 25px;
   font-size: 15px;
 }
 .cards .card .card-button {
@@ -117,6 +118,10 @@ footer {
   color: #FFFFFF;
   padding: 20px 20px;
 }
+footer .image-footer {
+  height: 24px;
+  width: 24px;
+}
 footer .rights-text {
   font-size: 15px;
   display: flex;
@@ -132,14 +137,12 @@ p, h1 {
   footer {
     width: 100%;
     display: inline-block;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
   }
   .rights-text {
     margin-top: 16px;
   }
   .image-footer {
-    position: 50;
     align-self: center;
     justify-self: center;
   }

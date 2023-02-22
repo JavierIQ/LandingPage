@@ -56,30 +56,30 @@
 }
 
 .cards {
-  justify-content: space-between;
-  align-items: center;
-  padding: 80px 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 .cards .card {
-  width: 100%;
-  max-width: 300px;
-  margin: 20px;
-  padding: 20px;
-  background-color: #ffffff;
-  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
 }
-.cards .card-image {
-  height: 200px;
+.cards .card .card-image {
+  height: 450px;
   background-color: #FFF959;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-radius: 15px;
 }
-.cards .card-button {
-  display: inline-block;
+.cards .card .card-title {
+  font-size: 32px;
+}
+.cards .card .card-subtitle {
+  font-size: 15px;
+}
+.cards .card .card-button {
   padding: 10px 20px;
   font-size: 16px;
-  border-radius: 4px;
   text-transform: uppercase;
+  background-color: transparent;
 }
 
 footer {
